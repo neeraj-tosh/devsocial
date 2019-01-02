@@ -9,11 +9,6 @@ const passport = require("passport");
 const validateRegisterInput = require("../../validator/register");
 const validateLoginInput = require("../../validator/login");
 
-// @route   GET api/users/test
-// @desc    to test user route
-// @access  Public
-router.get("/test", (req, res) => res.json({ message: "user works" }));
-
 // @route   GET api/users/registe
 // @desc    to register new users
 // @access  Public
